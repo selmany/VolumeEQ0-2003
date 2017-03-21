@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/volume_label"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/bass_boost_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="bass_boost"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/seekBar1"
+            android:layout_alignParentStart="true" />
+        <SeekBar android:id="@+id/bass_boost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="1000"
+            android:progress="0"
+            android:secondaryProgress="0"
+            android:layout_below="@+id/bass_boost_label"
+            android:layout_alignParentStart="true" />
+
+        <SeekBar android:id="@+id/slider_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_1"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="120Hz-460Hz"
+            android:layout_below="@+id/slider_1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+        <SeekBar android:id="@+id/slider_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="460Hz-1kHz"
+            android:layout_below="@+id/slider_2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+        <SeekBar android:id="@+id/slider_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_3"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1kHz-7kHz"
+            android:layout_below="@+id/slider_3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+        <SeekBar android:id="@+id/slider_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_4"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="7kHz-"
+            android:layout_below="@+id/slider_4"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+        <SeekBar android:id="@+id/slider_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_5"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/slider_5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+        <SeekBar android:id="@+id/slider_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_6"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/slider_6"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+        <SeekBar android:id="@+id/slider_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_7"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_below="@+id/slider_7"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+        <SeekBar android:id="@+id/slider_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="50"
+            android:secondaryProgress="50"
+            android:layout_below="@+id/slider_label_8"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/slider_label_1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="30Hz-120Hz"
+            android:layout_below="@+id/bass_boost"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/volume_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="volume"
+            android:layout_marginTop="65dp"
+            android:layout_below="@+id/buttonRTS"
+          />
+
+        <TextView
+            android:id="@+id/slider_label_1B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Decay HF"
+            android:layout_below="@+id/eReverb"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbDecayHF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="1900"
+            android:progress="900"
+            android:secondaryProgress="900"
+            android:layout_below="@+id/slider_label_1B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_2B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Decay Time"
+            android:layout_below="@+id/slider_ReverbDecayHF"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbDecayTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="19900"
+            android:progress="0"
+            android:layout_below="@+id/slider_label_2B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_3B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Density"
+            android:layout_below="@+id/slider_ReverbDecayTime"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbDensity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="1000"
+            android:layout_below="@+id/slider_label_3B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_4B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Diffusion"
+            android:layout_below="@+id/slider_ReverbDensity"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbDiffusion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="1000"
+            android:layout_below="@+id/slider_label_4B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_5B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Ref Level"
+            android:layout_below="@+id/slider_ReverbDiffusion"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbRefLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10000"
+            android:progress="1000"
+            android:secondaryProgress="1000"
+            android:layout_below="@+id/slider_label_5B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_6B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Ref Delay"
+            android:layout_below="@+id/slider_ReverbRefLevel"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbRefDelay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="300"
+            android:progress="0"
+            android:layout_below="@+id/slider_label_6B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_7B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Delay"
+            android:layout_below="@+id/slider_ReverbRefDelay"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbDelay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="0"
+            android:layout_below="@+id/slider_label_7B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_8B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Level"
+            android:layout_below="@+id/slider_ReverbDelay"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="11000"
+            android:progress="2000"
+            android:secondaryProgress="2000"
+            android:layout_below="@+id/slider_label_8B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_9B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Room Level"
+            android:layout_below="@+id/slider_ReverbLevel"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbRoomLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="9000"
+            android:layout_below="@+id/slider_label_9B"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/slider_label_10B"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Reverb Room HF"
+            android:layout_below="@+id/slider_ReverbRoomLevel"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+        <SeekBar android:id="@+id/slider_ReverbRoomHF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="9000"
+            android:layout_below="@+id/slider_label_10B"
+            android:layout_alignParentStart="true" />
+
+        <Button android:id="@+id/flat"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="reset"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/enabled" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RTS"
+            android:id="@+id/buttonRTS"
+            android:clickable="true"
+            android:onClick="onCheckboxClicked"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="13dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NoiseCancel"
+            android:id="@+id/buttonNoise"
+            android:clickable="true"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/flat"
+            android:layout_alignParentStart="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Virtualizer"
+            android:id="@+id/virtualizer"
+            android:clickable="true"
+            android:onClick="onCheckboxClicked"
+            android:layout_alignBaseline="@+id/buttonNoise"
+            android:layout_alignBottom="@+id/buttonNoise"
+            android:layout_toEndOf="@+id/buttonNoise"
+            android:layout_marginStart="30dp" />
+
+        <CheckBox android:id="@+id/enabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Equializer"
+            android:layout_above="@+id/volume_label"
+            android:layout_toEndOf="@+id/buttonNoise" />
+
+        <CheckBox
+            android:text="P.Reverb"
+            android:id="@+id/prReverb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/slider_8"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E.Reverb"
+            android:id="@+id/eReverb"
+            android:clickable="true"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="14dp"
+            android:layout_below="@+id/prReverb"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_alignBottom="@+id/prReverb"
+            android:layout_toEndOf="@+id/buttonNoise" />
+
+
+    </RelativeLayout>
+</ScrollView>
